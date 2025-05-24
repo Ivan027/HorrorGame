@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00eb57429c6244078a347373a063d946, type: 3}
+  m_Name: TestDialogue
+  m_EditorClassIdentifier: 
+  _dialogueNodes:
+  - _id: 0
+    _nodeName: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0435"
+    _nextNode: 1
+    _nodeType: 0
+    _phrases:
+    - <Text>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442"
+      <Speaker>k__BackingField: {fileID: 11400000, guid: b2faac4e6109a4cad96c5f95c7f60254, type: 2}
+      <Voice>k__BackingField: {fileID: 0}
+    _answers: []
+  - _id: 1
+    _nodeName: "\u0412\u044B\u0431\u043E\u0440"
+    _nextNode: 0
+    _nodeType: 1
+    _phrases: []
+    _answers:
+    - <AnswerText>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442"
+      <NextNodeIndex>k__BackingField: 2
+    - <AnswerText>k__BackingField: "\u041F\u043E\u043A\u0430"
+      <NextNodeIndex>k__BackingField: 3
+  - _id: 2
+    _nodeName: "\u041F\u0440\u0438\u0432\u0435\u0442"
+    _nextNode: 3
+    _nodeType: 0
+    _phrases:
+    - <Text>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442, \u0434\u0440\u0443\u0436\u0438\u0449\u0435!"
+      <Speaker>k__BackingField: {fileID: 11400000, guid: 9afe404e652334e479af8e59b75a4e7e, type: 2}
+      <Voice>k__BackingField: {fileID: 0}
+    - <Text>k__BackingField: "\u041A\u0430\u043A \u043F\u043E\u0436\u0438\u0432\u0430\u0435\u0448\u044C?"
+      <Speaker>k__BackingField: {fileID: 11400000, guid: 9afe404e652334e479af8e59b75a4e7e, type: 2}
+      <Voice>k__BackingField: {fileID: 0}
+    _answers:
+    - <AnswerText>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442, \u0434\u0440\u0443\u0436\u0438\u0449\u0435!"
+      <NextNodeIndex>k__BackingField: 2
+    - <AnswerText>k__BackingField: "\u041A\u0430\u043A \u043F\u043E\u0436\u0438\u0432\u0430\u0435\u0448\u044C?"
+      <NextNodeIndex>k__BackingField: 2
+  - _id: 3
+    _nodeName: "\u041F\u043E\u043A\u0430"
+    _nextNode: -1
+    _nodeType: 0
+    _phrases:
+    - <Text>k__BackingField: "\u041C\u043D\u0435 \u043F\u043E\u0440\u0430 \u0438\u0434\u0442\u0438."
+      <Speaker>k__BackingField: {fileID: 11400000, guid: 9afe404e652334e479af8e59b75a4e7e, type: 2}
+      <Voice>k__BackingField: {fileID: 0}
+    - <Text>k__BackingField: "\u041F\u043E\u043A\u0430!"
+      <Speaker>k__BackingField: {fileID: 11400000, guid: 9afe404e652334e479af8e59b75a4e7e, type: 2}
+      <Voice>k__BackingField: {fileID: 0}
+    _answers:
+    - <AnswerText>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442, \u0434\u0440\u0443\u0436\u0438\u0449\u0435!"
+      <NextNodeIndex>k__BackingField: 2
